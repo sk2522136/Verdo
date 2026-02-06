@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "main": "server.js",
-   "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server":"nodemon server.js"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.0.2",
     "multer": "^2.0.2",
+    "serverless-http": "^4.0.0",
     "stripe": "^20.1.0"
   },
   "devDependencies": {

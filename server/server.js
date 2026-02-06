@@ -2,6 +2,7 @@ import cookieParser from 'cookie-parser';
 import express, { application } from 'express';
 import cors from 'cors';
 import'dotenv/config';
+import serverless from "serverless-http";
 import userRouter from './routes/userRoute.js';
 import connectDB from './configs/db.js';
 import sellerRouter from './routes/sellerRoute.js';
