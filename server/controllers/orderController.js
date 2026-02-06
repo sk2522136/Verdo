@@ -154,7 +154,6 @@ export const placeOrderStripe = async (req , res) =>{
                 });
 
                 const {orderId ,userId} =  session.data[0].metadata;
-                    console.log("Webhook triggered for user:", userId);
 
                 //Mark payment as Paid
                 await Order.findByIdAndUpdate(orderId , {isPaid:true});
