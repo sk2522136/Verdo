@@ -11,7 +11,7 @@ import ProductCategory from './pages/ProductCategory';
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import AddAddress from './pages/AddAddress';
-import MyOrders from './pages/MyOrders.Jsx';
+import MyOrders from './pages/MyOrders.jsx';
 import SellerLogin from './components/seller/SellerLogin';
 import Sellerlayout from './pages/seller/SellerLayout';
 import AddProduct from './pages/seller/AddProduct';
