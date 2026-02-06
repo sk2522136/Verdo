@@ -15,7 +15,7 @@ import { stripeWebhook } from './controllers/orderController.js';
 const app = express();
 
 // Database Connection (Baghair await ke call karein ya function mein lapet dein)
-connectDB().catch(err => console.error("DB Connection Error:", err));
+connectDB(); 
 connectCloudinary();
 
 const allowedOrigins = ['http://localhost:5173'];

@@ -1,3 +1,5 @@
-import multer  from "multer";
+import multer from "multer";
 
-export const upload = multer({storage: multer.diskStorage({})})
+// DiskStorage ki jagah MemoryStorage use karein
+const storage = multer.memoryStorage(); 
+export const upload = multer({ storage });
