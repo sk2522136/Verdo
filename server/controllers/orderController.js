@@ -154,11 +154,17 @@ export const placeOrderStripe = async (req , res) =>{
                 });
 
                 const {orderId ,userId} =  session.data[0].metadata;
+                    console.log("Webhook triggered for user:", userId);
+
                 //Mark payment as Paid
                 await Order.findByIdAndUpdate(orderId , {isPaid:true});
 
                 // clear user Cart
-                await User.findByIdAndUpdate(userId , {cartItems:{}})
+                 const updatedUser = await User.findByIdAndUpdate(
+                    userId,
+                    { cartItems: [] },
+                    { new: true }  // returns updated document
+                );
                 break;
             }
             case "payment_intent.payment_failed":{
