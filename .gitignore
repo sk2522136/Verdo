@@ -1,0 +1,28 @@
+# Node modules (libraries)
+node_modules
+
+# Environment variables / secrets
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend / backend build folders
+build/
+dist/
+
+# Local cache / bundler folders
+.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vercel local config
+.vercel/
+
+# Editor / IDE folders
+.vscode/
+.idea/
