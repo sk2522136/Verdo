@@ -43,4 +43,6 @@ app.use('/api/order',orderRouter)
 
 
 
-export default serverless(app);
+app.listen(port,()=>{
+    console.log(`Server is running on http://localhost:${port} `)
+});
