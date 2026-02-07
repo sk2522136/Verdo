@@ -48,7 +48,7 @@ const AddAddress = () => {
         e.preventDefault();
 
         try {
-            const {data} = await axios.post('/api/address/add' , { userId:user.id, address})
+            const {data} = await axios.post('/api/address/add' , {userId: user?._id, address})
 
             if(data.success){
                 toast.success(data.message);
