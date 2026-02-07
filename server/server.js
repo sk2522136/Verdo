@@ -36,9 +36,10 @@ app.use('/api/order', orderRouter);
 
 // Local development ke liye
 
-    const port = process.env.PORT || 4000;
-    app.listen(port, () => console.log(`Server running on port ${port}`));
-
+    const PORT = process.env.PORT || 4000;
+   app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 // Vercel ke liye sab se important linees 
 export default app;
