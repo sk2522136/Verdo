@@ -5,7 +5,7 @@ import { data } from 'react-router-dom'
 
 
 //input field component
-const InputField = ({type, placeholder, name, handleChnage, address})=>(
+const InputField = ({type, placeholder, name, handleChnage, address,navigate})=>(
     <input className='w-full px-2 py-2.5 border-gray-500/30 rounded outline-none text-gray-500 focus:border-primary transition' 
     type={type}
     placeholder={placeholder}
