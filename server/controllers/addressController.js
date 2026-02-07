@@ -4,7 +4,11 @@ import Address from "../models/Address.js";
 // Add Address : /api/address/add
 export const addAddress = async(req , res)=>{
     try {
-        const {address , userId} = req.body;
+       const {address , userId: bodyUserId} = req.body;
+        const userId = req.user?.id ?? bodyUserId;
+        if(!userId){
+            return res.json({success:false , message:"Not Authorized"});
+        }
         await Address.create({...address , userId})
                 res.json({success:true , message:"Address Added Successfully"})
 
