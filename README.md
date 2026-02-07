@@ -122,7 +122,7 @@ This project demonstrates:
 ## Author
 
 **Sahil Kumar**  
-GitHub: [@sksk2522136](https://github.com/sk2522136)  
+GitHub: [@sk2522136](https://github.com/sk2522136)  
 Email: sk2522136@gmail.com
 
 
