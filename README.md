@@ -8,6 +8,7 @@ It provides a complete e-commerce workflow — from product management and secur
 - **Frontend (Vercel):** https://verdo-gro.vercel.app
 - **Backend API (Render):** https://verdo-backend-bgrm.onrender.com
 ---
+
 ## Features
 
 ### User Features
@@ -18,7 +19,7 @@ It provides a complete e-commerce workflow — from product management and secur
 - Add products to cart
 - Add & manage **shipping address**
 - Place orders
-- Payment options:
+- **Payment options:**
   -  Cash on Delivery (COD)
   -  Stripe Online Payment
 - View personal order history
@@ -35,7 +36,7 @@ It provides a complete e-commerce workflow — from product management and secur
 ---
 ### Frontend
 - **React.js (v19)**
-- **Vite**
+-  **Vite**
 - **Tailwind CSS**
 - **React Router DOM**
 - **Axios**
@@ -63,7 +64,7 @@ It provides a complete e-commerce workflow — from product management and secur
 
 - **Frontend Hosting:** [Vercel](https://verdo-gro.vercel.app)
 - **Backend Hosting:** [Render](https://verdo-backend-bgrm.onrender.com)
-- - **MongoDB Atlas** – Cloud database
+-  **MongoDB Atlas** – Cloud database
 
 
 ## Authentication & Security
