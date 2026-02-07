@@ -35,10 +35,10 @@ app.use('/api/address', addressRouter);
 app.use('/api/order', orderRouter);
 
 // Local development ke liye
-if (process.env.NODE_ENV !== 'production') {
+
     const port = process.env.PORT || 4000;
     app.listen(port, () => console.log(`Server running on port ${port}`));
-}
+
 
 // Vercel ke liye sab se important linees 
 export default app;
