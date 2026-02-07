@@ -5,8 +5,8 @@ It provides a complete e-commerce workflow — from product management and secur
 ---
 ## Live Deployment
 
-- **Frontend (Vercel):** https://verdo-inky.vercel.app
-- **Backend API (Vercel Serverless):** https://verdobackend0.vercel.app
+- **Frontend (Vercel):** https://verdo-gro.vercel.app
+- **Backend API (Render):** https://verdo-backend-bgrm.onrender.com
 ---
 ## Features
 
@@ -60,7 +60,8 @@ It provides a complete e-commerce workflow — from product management and secur
 
 
 ### Deployment & Tools
-- **Vercel** – Frontend & serverless backend deployment
+- **Vercel** – Frontend deployment
+- **Render** – Backend (Node.js + Express)
 - **Serverless HTTP**
 - **MongoDB Atlas**
 - **Nodemon** – Development auto-reload
