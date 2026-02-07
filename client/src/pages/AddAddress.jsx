@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { assets } from '../assets/assets'
 import { useAppContext } from '../context/AppContext'
 import { data } from 'react-router-dom'
+import toast from "react-hot-toast"
+
 
 
 //input field component
-const InputField = ({type, placeholder, name, handleChnage, address,navigate})=>(
+const InputField = ({type, placeholder, name, handleChnage, address})=>(
     <input className='w-full px-2 py-2.5 border-gray-500/30 rounded outline-none text-gray-500 focus:border-primary transition' 
     type={type}
     placeholder={placeholder}
@@ -63,7 +65,7 @@ const AddAddress = () => {
         if(!user){
             navigate('/cart')
         }
-       },[])
+       },[user, navigate])
 
   return (
     <div>
