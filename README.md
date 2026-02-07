@@ -59,13 +59,11 @@ It provides a complete e-commerce workflow — from product management and secur
 - **Multer** – File handling
 
 
-### Deployment & Tools
-- **Vercel** – Frontend deployment
-- **Render** – Backend (Node.js + Express)
-- **Serverless HTTP**
-- **MongoDB Atlas**
-- **Nodemon** – Development auto-reload
+## Deployment
 
+- **Frontend Hosting:** [Vercel](https://verdo-gro.vercel.app)
+- **Backend Hosting:** [Render](https://verdo-backend-bgrm.onrender.com)
+- - **MongoDB Atlas** – Cloud database
 
 
 ## Authentication & Security
