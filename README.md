@@ -1,6 +1,7 @@
 # Verdo – Full-Stack Grocery Delivery Web App
 **Verdo** is a real-world **full-stack MERN grocery delivery application** designed for both **customers and sellers**.  
-It provides a complete e-commerce workflow — from product management and secure authentication to online payments and order handling.
+It provides a complete e-commerce workflow — from product management and secure authentication to online payments and 
+order handling.
 
 ---
 ## Live Deployment
