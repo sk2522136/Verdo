@@ -18,7 +18,7 @@ const app = express();
 connectDB(); 
 connectCloudinary();
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173','https://verdo-inky.vercel.app'];
 
 app.post('/stripe', express.raw({ type: "application/json" }), stripeWebhook);
 
