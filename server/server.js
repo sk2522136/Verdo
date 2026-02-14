@@ -14,7 +14,6 @@ import { stripeWebhook } from './controllers/orderController.js';
 
 const app = express();
 
-// Database Connection (Baghair await ke call karein ya function mein lapet dein)
 connectDB(); 
 connectCloudinary();
 
@@ -34,12 +33,10 @@ app.use('/api/cart', cartRouter);
 app.use('/api/address', addressRouter);
 app.use('/api/order', orderRouter);
 
-// Local development ke liye
 
     const PORT = process.env.PORT || 4000;
    app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Vercel ke liye sab se important linees 
 export default app;
